@@ -10,10 +10,21 @@ def nothing():
 
 def triger_fn(cont_list):
     for conture in cont_list:
-        min_x = contour.min(0)
-        max_x = contour.max(0)
-        min_y = contour.min(1)
-        max_y = contour.max(1)
+        min_x = -1
+        max_x = -1
+        min_y = -1
+        max_y = -1
+        for pair in conture:
+            pair = pair[0]
+            if min_x > pair[0] or min_x == -1:
+                min_x = pair[0]
+            if min_y > pair[1] or min_y == -1:
+                min_y = pair[1]
+            if max_x < pair[0] or max_x == -1:
+                max_x = pair[0]
+            if max_y < pair[1] or max_y == -1:
+                max_y = pair[1]
+        print([min_x, min_y, max_x, max_y])
 
 
 img = cv2.imread('/home/egor/playground/digital_hack_2017/tasks/EM/ImagesEM/BNP9.jpg')
@@ -24,7 +35,7 @@ if img.shape[1] > 600:
 cv2.namedWindow('Treshed')
 
 # create trackbars for treshold change
-cv2.createTrackbar('Treshold', 'Treshed', 0, 255, nothing)
+cv2.createTrackbar('Treshold', 'Treshed', 100, 255, nothing)
 
 prev_tresh_value = 0
 waitable_iterations = 0
