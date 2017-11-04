@@ -3,7 +3,7 @@ import cv2
 from matplotlib import pyplot as plt
 import imutils
 
-img = cv2.imread('ANP5.jpg')
+img = cv2.imread('image/ANP5.jpg')
 if img.shape[1] > 600:
     img = imutils.resize(img, width=600)
 gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
