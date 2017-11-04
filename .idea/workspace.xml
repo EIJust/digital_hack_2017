@@ -1,0 +1,446 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="87c6e420-65e3-4e69-8923-fdce34533f46" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/README.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tasks/Bioinformatics/для Биоинф пазл1 с пояснениями.docx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tasks/Bioinformatics/для Биоинф пазл1.docx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tasks/EM/ELectronicMicroscopy.docx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tasks/EM/ImagesEM.zip" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tasks/EM/ImagesEM/stm_3_2012_s4_p26_30.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tasks/ImageJ/1/SNAP-163333-0208.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tasks/ImageJ/1/нум.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tasks/ImageJ/1/чб.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tasks/ImageJ/2/SNAP-133957-0025.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tasks/ImageJ/2/нум.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tasks/ImageJ/2/ч-б.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tasks/ImageJ/3/SNAP-133905-0024.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tasks/ImageJ/3/нум.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tasks/ImageJ/3/ч-б.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tasks/ImageJ/Обработка изображений морфологических препаратов.docx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tasks/MotionCapture/Обработка данных движения пациентов с неврологическими нарушениями.docx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tasks/MotionCapture/виртуальная реальность/БП1.xlsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tasks/MotionCapture/виртуальная реальность/БП2.xlsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tasks/MotionCapture/виртуальная реальность/БП3.xlsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tasks/MotionCapture/виртуальная реальность/БП4.xlsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tasks/MotionCapture/виртуальная реальность/БП5.xlsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tasks/MotionCapture/виртуальная реальность/БП6.xlsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tasks/MotionCapture/виртуальная реальность/БП7.xlsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tasks/MotionCapture/виртуальная реальность/БП8.xlsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tasks/MotionCapture/виртуальная реальность/К1.xlsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tasks/MotionCapture/виртуальная реальность/К2.xlsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tasks/MotionCapture/виртуальная реальность/К3.xlsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tasks/MotionCapture/виртуальная реальность/К4.xlsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tasks/MotionCapture/виртуальная реальность/К5.xlsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tasks/MotionCapture/виртуальная реальность/К6.xlsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tasks/MotionCapture/виртуальная реальность/К7.xlsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tasks/MotionCapture/виртуальная реальность/К8.xlsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tasks/MotionCapture/виртуальная реальность/РС1.xlsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tasks/MotionCapture/виртуальная реальность/РС2.xlsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tasks/MotionCapture/виртуальная реальность/РС3.xlsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tasks/MotionCapture/виртуальная реальность/РС4.xlsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tasks/MotionCapture/виртуальная реальность/РС5.xlsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tasks/MotionCapture/виртуальная реальность/РС6.xlsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tasks/MotionCapture/виртуальная реальность/РС7.xlsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tasks/MotionCapture/виртуальная реальность/РС8.xlsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tasks/MotionCapture/закрытые глаза/БП1.xlsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tasks/MotionCapture/закрытые глаза/БП2.xlsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tasks/MotionCapture/закрытые глаза/БП3.xlsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tasks/MotionCapture/закрытые глаза/БП4.xlsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tasks/MotionCapture/закрытые глаза/БП5.xlsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tasks/MotionCapture/закрытые глаза/БП6.xlsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tasks/MotionCapture/закрытые глаза/БП7.xlsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tasks/MotionCapture/закрытые глаза/БП8.xlsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tasks/MotionCapture/закрытые глаза/К1.xlsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tasks/MotionCapture/закрытые глаза/К2.xlsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tasks/MotionCapture/закрытые глаза/К3.xlsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tasks/MotionCapture/закрытые глаза/К4.xlsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tasks/MotionCapture/закрытые глаза/К5.xlsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tasks/MotionCapture/закрытые глаза/К6.xlsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tasks/MotionCapture/закрытые глаза/К7.xlsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tasks/MotionCapture/закрытые глаза/К8.xlsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tasks/MotionCapture/закрытые глаза/РС1.xlsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tasks/MotionCapture/закрытые глаза/РС2.xlsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tasks/MotionCapture/закрытые глаза/РС3.xlsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tasks/MotionCapture/закрытые глаза/РС4.xlsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tasks/MotionCapture/закрытые глаза/РС5.xlsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tasks/MotionCapture/закрытые глаза/РС6.xlsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tasks/MotionCapture/закрытые глаза/РС7.xlsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tasks/MotionCapture/закрытые глаза/РС8.xlsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tasks/MotionCapture/открытые глаза/БП1.xlsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tasks/MotionCapture/открытые глаза/БП2.xlsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tasks/MotionCapture/открытые глаза/БП3.xlsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tasks/MotionCapture/открытые глаза/БП4.xlsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tasks/MotionCapture/открытые глаза/БП5.xlsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tasks/MotionCapture/открытые глаза/БП6.xlsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tasks/MotionCapture/открытые глаза/БП7.xlsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tasks/MotionCapture/открытые глаза/БП8.xlsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tasks/MotionCapture/открытые глаза/К1.xlsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tasks/MotionCapture/открытые глаза/К2.xlsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tasks/MotionCapture/открытые глаза/К3.xlsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tasks/MotionCapture/открытые глаза/К4.xlsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tasks/MotionCapture/открытые глаза/К5.xlsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tasks/MotionCapture/открытые глаза/К6.xlsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tasks/MotionCapture/открытые глаза/К7.xlsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tasks/MotionCapture/открытые глаза/К8.xlsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tasks/MotionCapture/открытые глаза/РС1.xlsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tasks/MotionCapture/открытые глаза/РС2.xlsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tasks/MotionCapture/открытые глаза/РС3.xlsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tasks/MotionCapture/открытые глаза/РС4.xlsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tasks/MotionCapture/открытые глаза/РС5.xlsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tasks/MotionCapture/открытые глаза/РС6.xlsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tasks/MotionCapture/открытые глаза/РС7.xlsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tasks/MotionCapture/открытые глаза/РС8.xlsx" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/detected_contours.py" afterPath="$PROJECT_DIR$/detected_contours.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/tasks/EM/ImagesEM/ANP5.jpg" afterPath="$PROJECT_DIR$/images/ANP5.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/tasks/EM/ImagesEM/ANP6.jpg" afterPath="$PROJECT_DIR$/images/ANP6.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/tasks/EM/ImagesEM/ANP7.jpg" afterPath="$PROJECT_DIR$/images/ANP7.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/tasks/EM/ImagesEM/BNP12.jpg" afterPath="$PROJECT_DIR$/images/BNP12.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/tasks/EM/ImagesEM/BNP14.jpg" afterPath="$PROJECT_DIR$/images/BNP14.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/tasks/EM/ImagesEM/BNP16.jpg" afterPath="$PROJECT_DIR$/images/BNP16.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/tasks/EM/ImagesEM/BNP5.jpg" afterPath="$PROJECT_DIR$/images/BNP5.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/tasks/EM/ImagesEM/BNP7.jpg" afterPath="$PROJECT_DIR$/images/BNP7.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/tasks/EM/ImagesEM/BNP9.jpg" afterPath="$PROJECT_DIR$/images/BNP9.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/tasks/EM/ImagesEM/Tv1_11000.jpg" afterPath="$PROJECT_DIR$/images/Tv1_11000.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/tasks/EM/ImagesEM/Tv2_18000.jpg" afterPath="$PROJECT_DIR$/images/Tv2_18000.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/tasks/EM/ImagesEM/Tv2_18000a.jpg" afterPath="$PROJECT_DIR$/images/Tv2_18000a.jpg" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="detected_contours.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/detected_contours.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1785">
+              <caret line="106" column="0" lean-forward="true" selection-start-line="106" selection-start-column="0" selection-end-line="106" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#10#0" expanded="true" />
+                <element signature="e#123#127#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>th</find>
+      <find>imutils</find>
+      <find>507, 436, 593, 445</find>
+      <find>prin</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="H:/Downloads/FYSC6X1IKECQ3CY.py" />
+        <option value="$PROJECT_DIR$/serg.py" />
+        <option value="$PROJECT_DIR$/README.txt" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/detected_contours.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-7" />
+    <option name="width" value="1294" />
+    <option name="height" value="1047" />
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scratches" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="digital_hack_2017" type="b2602c69:ProjectViewProjectNode" />
+              <item name="digital_hack_2017" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="digital_hack_2017" type="b2602c69:ProjectViewProjectNode" />
+              <item name="digital_hack_2017" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/serg.py" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="H:\hack\digital_hack_2017\images" />
+      <recent name="H:\hack\digital_hack_2017\tasks\EM\ImagesEM" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.serg">
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\ProgramData\Anaconda3\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="digital_hack_2017" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/serg.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
+    <configuration name="serg" type="PythonConfigurationType" factoryName="Python">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\ProgramData\Anaconda3\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="digital_hack_2017" />
+      <option name="SCRIPT_NAME" value="H:\hack\digital_hack_2017\detected_contours.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="87c6e420-65e3-4e69-8923-fdce34533f46" name="Default" comment="" />
+      <created>1509777749229</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1509777749229</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="2576" height="1056" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20627981" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3188406" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.43143812" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298887" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="15" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/images/ANP5.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://H:/Downloads/FYSC6X1IKECQ3CY.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-765">
+          <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/ProgramData/Anaconda3/Lib/site-packages/cv2/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/ANP6.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/Tv2_18000.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tasks/EM/ImagesEM/muravi-nasekomye-situaciya-1653.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharmCE2017.2/system/python_stubs/-313451744/cv2/cv2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="7064" column="4" lean-forward="false" selection-start-line="7064" selection-start-column="4" selection-end-line="7064" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/0.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/6.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/7.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/8.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/11.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/12.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/14.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/25.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/24.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/20.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tasks/ImageJ/1/SNAP-163333-0208.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tasks/ImageJ/1/нум.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="80" lean-forward="false" selection-start-line="14" selection-start-column="80" selection-end-line="14" selection-end-column="80" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/detected_contours.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1785">
+          <caret line="106" column="0" lean-forward="true" selection-start-line="106" selection-start-column="0" selection-end-line="106" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+            <element signature="e#123#127#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

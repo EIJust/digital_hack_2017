@@ -1,11 +1,21 @@
 import cv2
-import numpy as np
+import numpy
 import imutils
+
+numpy.set_printoptions(threshold=numpy.nan)
 
 clicked = False
 
-def nothing():
+
+def nothing(x):
     pass
+
+
+def crop_image(data):
+    for coordinate in data:
+        # нулевой y:высота - (сверху вниз), нулевая х: ширина - (снизу вверх)
+        crop_img = img[coordinate[1]:coordinate[3], coordinate[0]:coordinate[2]]
+        crop_imgs.append(crop_img)
 
 
 def triger_fn(cont_list):
@@ -24,13 +34,16 @@ def triger_fn(cont_list):
                 max_x = pair[0]
             if max_y < pair[1] or max_y == -1:
                 max_y = pair[1]
-        print([min_x, min_y, max_x, max_y])
+                coordinates.append([min_x, min_y, max_x, max_y])
+    crop_image(coordinates)
 
 
-img = cv2.imread('/home/egor/playground/digital_hack_2017/tasks/EM/ImagesEM/BNP9.jpg')
+img = cv2.imread('images/ANP5.jpg')
+coordinates = []
+crop_imgs = []
 
-if img.shape[1] > 600:
-    img = imutils.resize(img, width=600)
+if img.shape[1] > 800:
+    img = imutils.resize(img, width=800)
 
 cv2.namedWindow('Treshed')
 
@@ -84,9 +97,10 @@ while True:
     if waitable_iterations > 150 and not clicked:
         clicked = True
         triger_fn(contour_list)
+    for idx, image in enumerate(crop_imgs):
+        cv2.imwrite('images/granules/' + str(idx) + '.jpg', image)
 
     if k == 27:
         break
 
 cv2.destroyAllWindows()
-
