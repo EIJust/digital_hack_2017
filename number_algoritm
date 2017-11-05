@@ -1,0 +1,27 @@
+List = [[1, 1, 1, 1, 1], [1, 1, 1], [1, 1, 1, 1], [1, 1, 1, 1, 1, 1, 1], [1, 1, 1, 1, 1]]
+
+
+def find_arifmetic_mid(q, left_sum, line_number):
+    # for w in range(len(List)):
+    for i in List[line_number]:
+        q += i
+    sum = q / 2 #находит среднее значение порядковых элементов в строке
+    print('sum', sum)
+    for e in range(0, len(List[line_number])):
+        if left_sum < sum:
+            left_sum += List[line_number][e]
+            # print('left_sum', left_sum)
+        elif left_sum >= sum:
+            print('left_sum', left_sum)
+            print('sum', sum)
+            print('Найден цетр эллипса по оси Х:', e)
+            break
+
+
+for w in range(len(List)):
+    find_arifmetic_mid(0, 0, w)
+
+
+
+
+
