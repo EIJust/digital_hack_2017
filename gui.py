@@ -2,6 +2,7 @@ import sys
 from PyQt5.QtWidgets import QApplication, QWidget, QLabel, QMainWindow, QTextEdit, QAction, QFileDialog, QPushButton, \
     QAction
 from PyQt5.QtGui import QIcon, QPixmap
+import pandas as pd
 
 from granulas_detector import detect_granulas
 
@@ -14,7 +15,8 @@ class Gui(QMainWindow):
 
     def open_image(self):
         file_name = QFileDialog.getOpenFileName(self, 'Open Image', '', 'Image Files (*.jpg)')
-        detect_granulas(file_name[0], True)
+        granules = detect_granulas(file_name[0], True)
+        granules[1].to_csv('granules.csv')
 
     def init_ui(self):
         upload_action = QAction('Upload image', self)
@@ -37,4 +39,4 @@ if __name__ == '__main__':
     mainWindow.show()
 
     ex = Gui()
-    sys.exit(app.exec_())
+    sys.exit(gui.exec_())
