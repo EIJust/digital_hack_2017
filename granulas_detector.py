@@ -86,7 +86,7 @@ def detect_granulas(path, show=False):
 
         cv2.waitKey(0)
 
-    return img, granulas_table
+    return img, granulas_table, markers
 
 
 def granules_filtration(table, contrast_limit=0):
@@ -111,7 +111,7 @@ if __name__ == '__main__':
     i = 0
     for file in os.listdir("images/"):
         if file.endswith(".jpg"):
-            gran_image, table = detect_granulas(os.path.join('images', file), False)
+            gran_image, table, markers = detect_granulas(os.path.join('images', file), False)
             cv2.imwrite(os.path.join(os.path.join('detected', file)), gran_image)
             tables.append(granules_filtration(table))
             i += 1
