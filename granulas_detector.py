@@ -11,8 +11,6 @@ from matplotlib import pyplot as plt
 def detect_granulas(path, show=False):
     granulas_data = {}
     img = cv2.imread(path)
-    # if img.shape[1] > 600:
-    #     img = imutils.resize(img, width=600)
     gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
     img_source = gray.copy()
 
@@ -77,7 +75,9 @@ def detect_granulas(path, show=False):
         print("Square regions")
         print(squares_regions)
 
-        cv2.imshow('wtf', img)
+        if img.shape[1] > 1000:
+            img = imutils.resize(img, width=1000)
+        cv2.imshow('Granules', img)
 
         cv2.waitKey(0)
 
@@ -85,5 +85,5 @@ def detect_granulas(path, show=False):
 
 
 if __name__ == '__main__':
-    gran_image , table = detect_granulas('images/ANP5.jpg', False)
+    gran_image, table = detect_granulas('images/ANP5.jpg', False)
     print(table)
