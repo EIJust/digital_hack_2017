@@ -31,7 +31,6 @@ def detect_granulas(path, show=False):
 
     # Marker labelling
     ret, markers = cv2.connectedComponents(sure_fg)
-    print('ret', ret)
     # Add one to all labels so that sure background is not 0, but 1
     markers = markers + 1
     # Now, mark the region of unknown with zero
@@ -58,10 +57,16 @@ def detect_granulas(path, show=False):
                     contrasts_regions[i_label] += img_source[i, point_index]
 
     for i in range(1, len(contrasts_regions)):
-        contrasts_regions[i] = contrasts_regions[i] / squares_regions[i]
+        if squares_regions[i] == 0:
+            contrasts_regions[i] = 0
+        else:
+            contrasts_regions[i] = contrasts_regions[i] / squares_regions[i]
 
     for i in range(2, len(contrasts_regions)):
-        contrasts_regions[i] = contrasts_regions[i] / contrasts_regions[1]
+        if contrasts_regions[i] == 0:
+            contrasts_regions[i] = 0
+        else:
+            contrasts_regions[i] = contrasts_regions[i] / contrasts_regions[1]
 
     granulas_data['contrast'] = contrasts_regions
     granulas_data['square'] = squares_regions
@@ -84,6 +89,31 @@ def detect_granulas(path, show=False):
     return img, granulas_table
 
 
+def granules_filtration(table, contrast_limit=0):
+    remove_id_rows = []
+    for i in range(len(table)):
+        if table.at[i, 'contrast'] < contrast_limit:
+            remove_id_rows.append(i)
+    filt_table = table.copy()
+    print(len(filt_table))
+    filt_table = filt_table.drop(remove_id_rows)
+    print(remove_id_rows)
+    print(len(filt_table))
+
+    return filt_table
+
+
 if __name__ == '__main__':
-    gran_image, table = detect_granulas('images/ANP5.jpg', False)
-    print(table)
+    import os
+
+    tables = []
+
+    i = 0
+    for file in os.listdir("images/"):
+        if file.endswith(".jpg"):
+            gran_image, table = detect_granulas(os.path.join('images', file), False)
+            cv2.imwrite(os.path.join(os.path.join('detected', file)), gran_image)
+            tables.append(granules_filtration(table))
+            i += 1
+            # print(i)
+    # print(tables)
