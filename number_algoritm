@@ -1,42 +1,37 @@
 import numpy as np
-List = np.array([[0, 0, 1, 1, 1, 1, 1], [0, 0, 0, 1, 1, 1, 1], [1, 1, 1, 1, 0, 0, 0], [1, 0, 0, 1, 1, 0, 1]])
+List = np.array([[0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0], [0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0], [0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0], [0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0], [0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0], [0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0], [0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0], [0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0, 0, 0, 0]])
+print(List)
+length = []
+count_X = []
+count_Y = []
+def arifmetic_mid_X(array, line_number):
+    count_local_X = []
+    global count_X
+    for e in array[line_number]:
+        if e:
+            count_local_X.append(1)
 
+    if len(count_local_X) > len(count_X):
+        count_X = count_local_X
 
-def arifmetic_mid_X(array, line_number, q, left_sum):
-    for i in array[line_number]:
-        q += i
-    sum = q / 2 #находит среднее значение порядковых элементов в строке
-    print('sum', sum)
-    for e in range(0, len(array[line_number])):
-        if left_sum < sum:
-            left_sum += array[line_number][e]
-            # print('left_sum', left_sum)
-        elif left_sum >= sum:
-            print('left_sum', left_sum)
-            print('sum', sum)
-            print('Найден цетр эллипса по оси Х:', e)
-            break
-
-def arifmetic_mid_Y(array, line_number, q, left_sum, ):
+def arifmetic_mid_Y(array, line_number):
     array_T = array.transpose()
-    print(array_T)
-    for i in array_T[line_number]:
-        q += i
-    sum = q / 2 #находит среднее значение порядковых элементов в строке
-    print('sum', sum)
-    for e in range(0, len(array_T[line_number])):
-        if left_sum < sum:
-            left_sum += array_T[line_number][e]
-            # print('left_sum', left_sum)
-        elif left_sum >= sum:
-            print('left_sum', left_sum)
-            print('sum', sum)
-            print('Найден цетр эллипса по оси Y:', e)
-            break
+    count_local_Y = []
+    global count_Y
+    for e in array_T[line_number]:
+        if e:
+            count_local_Y.append(1)
+
+    if len(count_local_Y) > len(count_Y):
+        count_Y = count_local_Y
+
 
 for w in range(len(List)):
-    arifmetic_mid_X(List, w, 0, 0)
-for w in range(len(List.transpose())):
-    arifmetic_mid_Y(List, w, 0, 0)
+    arifmetic_mid_X(List, w)
 
+for w in range(len(List.transpose())):
+    arifmetic_mid_Y(List, w)
+
+print('count_X', len(count_X), count_X)
+print('count_Y', len(count_Y), count_Y)
 
